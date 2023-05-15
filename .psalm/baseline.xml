@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.9.0@8b9ad1eb9e8b7d3101f949291da2b9f7767cd163">
+<files psalm-version="5.11.0@c9b192ab8400fdaf04b2b13d110575adc879aa90">
   <file src="src/Event/Dispatcher/DirectDispatcher.php">
     <UndefinedInterfaceMethod>
       <code>notify</code>
@@ -576,6 +576,8 @@
                 )]]></code>
       <code><![CDATA[OutputFacade::printerFor($configuration->logfileJunit())]]></code>
       <code><![CDATA[OutputFacade::printerFor($configuration->logfileJunit())]]></code>
+      <code><![CDATA[OutputFacade::printerFor($configuration->logfileXml())]]></code>
+      <code><![CDATA[OutputFacade::printerFor($configuration->logfileXml())]]></code>
       <code>atLeastVersion</code>
       <code>build</code>
       <code>configurationFile</code>
@@ -588,6 +590,7 @@
       <code>logEventsVerboseText</code>
       <code>logfileJunit</code>
       <code>logfileTeamcity</code>
+      <code>logfileXml</code>
     </MissingThrowsDocblock>
     <UnresolvableInclude>
       <code>include_once $filename</code>
